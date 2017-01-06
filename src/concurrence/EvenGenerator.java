@@ -13,7 +13,6 @@ public class EvenGenerator extends IntGenerator {
     @Override
     public synchronized int next() {
         ++currentEvenValue;
-//        Thread.yield();
         ++currentEvenValue;
 //        this.increase();
         return currentEvenValue;
